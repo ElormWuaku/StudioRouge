@@ -265,3 +265,79 @@ margin-top: 4rem;
         width: 100%; /* One item per row on mobile devices */
     }
 }
+
+.team-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.team-section h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.team-section h4 {
+    font-size: larger;
+    color: orange;
+}
+
+.team-section p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+/* .creative-visionaries {
+    margin-top: 30px;
+}
+
+.creative-visionaries h4 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+} */
+
+.team-member {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+}
+
+/* .team-member img {
+    width: 100%;
+    height: auto;
+     border-radius: 70%;
+    margin-bottom: 15px; 
+} */
+
+.team-member img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 49px;
+    width: 100%;
+    height: 25vw;
+    }
+
+.team-member p {
+    font-size: 16px;
+    color: #333;
+}
+
+.team-member p strong {
+    display: block;
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+    .team-member {
+        width: 100%;
+        margin: 20px 0;
+    }
+}
